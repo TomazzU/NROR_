@@ -40,10 +40,10 @@ function vizualizacija(st_tock, r)
     izrisi_kroznico();
     
     axis equal;
-    % title('Naključno generirane točke na krožnici z lokom');
-    % xlabel('X-os');
-    % ylabel('Y-os');
-    % legend('Znotraj krožnice', 'Zunaj krožnice', 'Krožnica');
+    title('Graf naključno generiranih točk s krožnico');
+    xlabel('X-os');
+    ylabel('Y-os');
+    legend('Znotraj krožnice', 'Zunaj krožnice', 'Krožnica');
 end
 
 % Funkcija za definiranje in izris krožnice z anonimno funkcijo
